@@ -98,7 +98,7 @@ detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
 num_detections = detection_graph.get_tensor_by_name('num_detections:0')
 
 # creating a fucntion 
-def object_counting()
+def object_counting():
     # Initialize Picamera and grab reference to the raw capture
     camera = PiCamera()
     camera.resolution = (IM_WIDTH,IM_HEIGHT)

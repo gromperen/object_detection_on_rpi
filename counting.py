@@ -134,7 +134,7 @@ def object_counting():
 
 	      # Updating totalcount
         totalcount=totalcount+num
-        print totalcount
+        print(totalcount)
 	      # Displaying the number of objects detected using the totalcount variable
         #cv2.putText(frame,"Count"+str(totalcount) ,(10, 35),font,0.8,(0, 0xFF, 0xFF),2,cv2.FONT_HERSHEY_SIMPLEX,)
 
